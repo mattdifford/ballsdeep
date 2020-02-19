@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 {%-include head.html-%}
+
 <body>
-    {%- include header.html -%}
+    <div class="container">
+        <div class="page">
+            <div class="page__logo">{%-include logo.svg -%}</div>
+            {%- include picture.html url="/images/balls.png" alt=site.title-%}
+            <h2>Coming soon</h2>
+        </div>
+    </div>
+    {%-include foot.html-%}
 </body>
+
 </html>
