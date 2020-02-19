@@ -8,6 +8,16 @@
   flex-wrap: wrap;
   color: #fff;
   padding: 25px 0;
+  &__logo {
+    max-width: 100%;
+    svg {
+      max-width: 100%;
+    }
+  }
+  picture,
+  img {
+    max-width: 100%;
+  }
   h2 {
     flex: 1 0 100%;
     text-align: center;
